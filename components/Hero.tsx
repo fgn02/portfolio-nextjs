@@ -125,7 +125,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.4 }}
         >
           <SocialIcon
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/farhan-ishraq-fagun-002459199/"
             className="bg-[#0077B5] hover:bg-[#0077B5]/80"
             icon={
               <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -134,7 +134,7 @@ export default function Hero() {
             }
           />
           <SocialIcon
-            href="https://github.com"
+            href="https://github.com/fgn02"
             className="bg-gray-800 hover:bg-gray-700"
             icon={
               <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -143,7 +143,7 @@ export default function Hero() {
             }
           />
           <SocialIcon
-            href="mailto:example@gmail.com"
+            href="mailto:farhanishraq02@gmail.com"
             className="bg-gradient-to-r from-red-500 to-pink-500 hover:opacity-90"
             icon={
               <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">

@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { useRouter } from "next/navigation";
 import { useInView } from "react-intersection-observer";
 import {
   Card,
@@ -35,6 +36,7 @@ const projects = [
 ];
 
 export default function Projects() {
+  const router = useRouter();
   const [ref, inView] = useInView({
     threshold: 0.1,
     triggerOnce: false,
@@ -97,6 +99,8 @@ export default function Projects() {
                 scale: 1.02,
                 transition: { duration: 0.2 },
               }}
+              onClick={() => router.push("/projects")}
+              className="cursor-pointer"
             >
               <Card className="bg-gray-800/50 backdrop-blur-sm border-gray-700 hover:border-gray-600 transition-all duration-300 h-full transform-gpu">
                 <CardHeader>
